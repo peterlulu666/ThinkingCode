@@ -27,6 +27,7 @@ public class mbta_directions {
         String direction = mbta.get_direction(start_station, end_station);
         int num_stops = mbta.get_num_stops(start_station, end_station);
 
+        // Report the result, assuming we"re actually going somewhere.
         if (num_stops == 0) {
             System.out.println(start_station +
                     " to " +
