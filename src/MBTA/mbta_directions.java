@@ -31,7 +31,7 @@ public class mbta_directions {
             System.out.println(start_station +
                     " to " +
                     end_station +
-                    "?" +
+                    "? " +
                     "I can't help you with that one! ");
 
         } else {
