@@ -103,13 +103,11 @@ public class mbta {
      * If either station doesn’t exist on the red line, or if both stations are the same, return 0
      */
     public int get_num_stops(String start_station, String end_station) {
-        if (!RED_LINE().contains(start_station) || !RED_LINE().contains(end_station)){
+        if (!RED_LINE().contains(start_station) || !RED_LINE().contains(end_station)) {
             return 0;
-        }
-        else if (start_station.equals(end_station)){
+        } else if (start_station.equals(end_station)) {
             return 0;
-        }
-        else {
+        } else {
             return Math.abs(RED_LINE().indexOf(end_station) - RED_LINE().indexOf(start_station));
         }
 
