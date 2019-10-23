@@ -13,6 +13,15 @@ public class main {
 //        int countDigit = String.valueOf(upc_number).length();
 //        // We would count digit in integer like this. The type of upc_number would be integer.
 //        int countDigit = Integer.toString(upc_number).length();
+//        // We would count digit in integer using while loop. The type of upc_number would be integer.
+//        int countDigit = 0;
+//        while (true){
+//            upc_number = upc_number % 10;
+//            countDigit++;
+//            upc_number = upc_number / 10;        
+//
+//        }
+
         // We would count digit in integer like this. The type of upc_number would be string.
         int countDigit = upc_number.length();
         // String to array of integer.
