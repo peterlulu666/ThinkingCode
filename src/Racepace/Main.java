@@ -45,7 +45,6 @@ public class Main {
 
             }
 
-
             // Number of minutes, a whole number
             while (true) {
                 System.out.println("How many minutes? \n");
@@ -59,7 +58,6 @@ public class Main {
                 }
 
             }
-
 
             // Hours and minutes are both whole numbers,and either one may be zero, but the ​total​ time is never zero
             if ((hour == 0) && (minute == 0)) {
@@ -103,6 +101,7 @@ public class Main {
 
     }
 
+    // The number is floating point number
     public static boolean isFloatingPointNumber(String str) {
         boolean floatingPointNumber = true;
         float number = 0f;
