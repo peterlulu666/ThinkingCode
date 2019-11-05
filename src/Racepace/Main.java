@@ -90,6 +90,12 @@ public class Main {
 
     // The number is a whole number
     public static boolean isWholeNumber(String str) {
+        // If there is no character the function returns false
+        if (str.equals("")) {
+            return false;
+
+        }
+        // If a character in the string is not digits the function returns false
         for (int i = 0; i < str.length(); i++) {
             if (!Character.isDigit(str.charAt(i))) {
                 return false;
@@ -97,6 +103,7 @@ public class Main {
             }
         }
 
+        // The function returns true if all characters in the string are digits and there is at least one character
         return true;
 
     }
